@@ -1,4 +1,6 @@
+# The app lives in a subdirectory, so point Netlify at it
 [build]
+  base = "apoorva's-portfolio"
   command = "npm install && npm run build"
   publish = "dist"
 
